@@ -1,0 +1,11 @@
+pydantic>=2.6.4
+numpy>=1.26.4
+pandas>=2.2.2
+pyyaml>=6.0.1
+rich>=13.7.1
+aiohttp>=3.9.5
+websockets>=12.0
+tenacity>=8.4.1
+python-dateutil>=2.9.0
+fastapi>=0.111.0
+uvicorn>=0.30.1

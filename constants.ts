@@ -1,0 +1,7 @@
+export const USDC_MINT = process.env.USDC_MINT || "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+export const WSOL_MINT = process.env.WSOL_MINT || "So11111111111111111111111111111111111111112";
+export const PUMPFUN_PROGRAM_ID = process.env.PUMPFUN_PROGRAM_ID || "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P";
+export const PUMPSWAP_PROGRAM_ID = process.env.PUMPSWAP_PROGRAM_ID || "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA";
+export const RAYDIUM_V4_PROGRAM_ID = process.env.RAYDIUM_V4_PROGRAM_ID || "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
+export const TOKEN_PROGRAM_ID = process.env.TOKEN_PROGRAM_ID || "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
+export const TOKEN_2022_PROGRAM_ID = process.env.TOKEN_2022_PROGRAM_ID || "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb";
