@@ -1,0 +1,29 @@
+{
+    "name": "pumpbot-hands",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "start": "node dist/index.js",
+        "build": "tsc -p tsconfig.json"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ws": "^8.17.1",
+        "@solana/web3.js": "^1.95.6",
+        "@raydium-io/raydium-sdk": "*",
+        "@pythnetwork/client": "^2.19.0",
+        "@solana/spl-token": "^0.4.8",
+        "@coral-xyz/anchor": "^0.29.0",
+        "@pump-fun/pump-swap-sdk": "*",
+        "bn.js": "^5.2.1"
+    },
+    "optionalDependencies": {
+        "bs58": "^6.0.0"
+    },
+    "devDependencies": {
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.4"
+    }
+}
